@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page - Weather App</title>
+</head>
+<body>
+    <div class="form">
+
+        <h1>Weather Search</h1>
+        <form action="/weatherapp" method="POST">
+            <!-- Label and Input for City -->
+            <label for="city">Enter City:</label><br>
+            <input type="text" id="city" name="city" required><br><br>
+            
+            <!-- Label and Input for Units -->
+            <label for="units">Enter Units (e.g., metric, imperial):</label><br>
+            <input type="text" id="units" name="units" required><br><br>
+            
+            <!-- Label and Input for API Key -->
+            <label for="appid">Enter API Key:</label><br>
+            <input type="text" id="appid" name="appid" required><br><br>
+            
+            <input type="submit" value="Get Weather">
+        </form>
+    </div>
+
+</body>
+</html>
